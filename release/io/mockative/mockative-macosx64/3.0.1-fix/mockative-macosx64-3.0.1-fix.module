@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mockative/3.0.1-fix/mockative-3.0.1-fix.module",
+    "group": "io.mockative",
+    "module": "mockative",
+    "version": "3.0.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockative.klib",
+          "url": "mockative-macosx64-3.0.1-fix.klib",
+          "size": 116209,
+          "sha512": "7d6f6481661982c76821f732dbd2ef9048a2264eea868a7d92d6caf412c32f6a8975e6e32b46ef3f26dcccafb2f9034ae3f76e303047758a526144cf71696422",
+          "sha256": "e19a971ec1720edf46851d441ad7f26ce2fee0b1b88c65c933fc03024838dcba",
+          "sha1": "13bd1d12e399261a36fe9c7f7d2d77cc2d2d37f8",
+          "md5": "2fe3d2f1b8989b82707841412198aa13"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "mockative-macosx64-3.0.1-fix-sources.jar",
+          "url": "mockative-macosx64-3.0.1-fix-sources.jar",
+          "size": 26608,
+          "sha512": "b4ac6c450e576befb94a4267ed010f07f4c447379b53b1206409fc46e9da80712529caa31744f6925b34e90e042c896316b7ebf78a2497ffe340acfac8ae542f",
+          "sha256": "812750547df1ca7a8a74577d621ca69d8960aabb07de4c19716b6e3fca7cbdac",
+          "sha1": "ebad7076aef4e9fce66c6dd80426f13ba4b82750",
+          "md5": "9e102d1341eb4f34e6ba7981d7cff88d"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockative-macosx64-3.0.1-fix-metadata.jar",
+          "url": "mockative-macosx64-3.0.1-fix-metadata.jar",
+          "size": 261,
+          "sha512": "239861c64f6c1a7977d67923c3600983e3add03017f55d7740fbc88b7e13a4d54fd0a579aef8937a98f7fd227bfbe351e7f2c63cc1cc0d2cfa9a327e8a1b4b5f",
+          "sha256": "07352ea33c164713d97b05bc5e0803f04e7324a6dfd316314382f7c56cd18a44",
+          "sha1": "c9b90155662a2b9a57dad43290476688ee07128d",
+          "md5": "2b7c18b1bcc0ac5b26ce93e0e0e2421e"
+        }
+      ]
+    }
+  ]
+}

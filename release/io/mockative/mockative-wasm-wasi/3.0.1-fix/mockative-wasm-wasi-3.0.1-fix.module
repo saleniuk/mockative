@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mockative/3.0.1-fix/mockative-3.0.1-fix.module",
+    "group": "io.mockative",
+    "module": "mockative",
+    "version": "3.0.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockative-wasm-wasi-3.0.1-fix.klib",
+          "url": "mockative-wasm-wasi-3.0.1-fix.klib",
+          "size": 114058,
+          "sha512": "537db17faf739ff1fb4da3f095af6843851242d50fc7082f22b8d4bf64a4c7ee1f5aec17cabed26ca3d16300ab5cd3278a8c2c5f1a4dfd18a414c63c483f299b",
+          "sha256": "3ea597953a340148be3bbeed523ac40f68fdf8d0e6965ceac4bdc59edcfc458f",
+          "sha1": "c310b9fbe1d72a899ccef209a0abbc1aaccbf9af",
+          "md5": "571111114b86c7722d2018672bdca772"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockative-wasm-wasi-3.0.1-fix.klib",
+          "url": "mockative-wasm-wasi-3.0.1-fix.klib",
+          "size": 114058,
+          "sha512": "537db17faf739ff1fb4da3f095af6843851242d50fc7082f22b8d4bf64a4c7ee1f5aec17cabed26ca3d16300ab5cd3278a8c2c5f1a4dfd18a414c63c483f299b",
+          "sha256": "3ea597953a340148be3bbeed523ac40f68fdf8d0e6965ceac4bdc59edcfc458f",
+          "sha1": "c310b9fbe1d72a899ccef209a0abbc1aaccbf9af",
+          "md5": "571111114b86c7722d2018672bdca772"
+        }
+      ]
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "files": [
+        {
+          "name": "mockative-wasm-wasi-3.0.1-fix-sources.jar",
+          "url": "mockative-wasm-wasi-3.0.1-fix-sources.jar",
+          "size": 26606,
+          "sha512": "e94a7df370adcd221b070a84b1f6118f46117acdeec7b80e99c5b589c6de81967dae43ee0227de5d10442864460c3ee08dc7dc4f0bd95433971763aede6d9be1",
+          "sha256": "272f86c37802fab8acd0997f2a7e1d8bee08869bfc2f328a0c886f622d9da708",
+          "sha1": "b44065b838217bc317df22269d9b7a828e5f5fd6",
+          "md5": "313b3127d9482eeec52cca50a2dabcbd"
+        }
+      ]
+    }
+  ]
+}

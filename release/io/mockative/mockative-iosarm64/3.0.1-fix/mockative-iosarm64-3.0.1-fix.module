@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mockative/3.0.1-fix/mockative-3.0.1-fix.module",
+    "group": "io.mockative",
+    "module": "mockative",
+    "version": "3.0.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockative.klib",
+          "url": "mockative-iosarm64-3.0.1-fix.klib",
+          "size": 116208,
+          "sha512": "83de7adbdf253e53933aa000740e956a5430641f565ce8bb97bd8fccac6002bc79a59737196f7d8ae22a34703fc7a1e594c926eabf83b96d140960170ca3290f",
+          "sha256": "fb9a1d0e34a3d681a33d1c6edb573741ebc4ccfd2e2cd4823b6750d4f44c0551",
+          "sha1": "d6f77c4db7b8a3fad2a3e3f397fe217e24bb71de",
+          "md5": "c0bca7bfc501ea580a02e2dcc73a30e1"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "mockative-iosarm64-3.0.1-fix-sources.jar",
+          "url": "mockative-iosarm64-3.0.1-fix-sources.jar",
+          "size": 26608,
+          "sha512": "b4ac6c450e576befb94a4267ed010f07f4c447379b53b1206409fc46e9da80712529caa31744f6925b34e90e042c896316b7ebf78a2497ffe340acfac8ae542f",
+          "sha256": "812750547df1ca7a8a74577d621ca69d8960aabb07de4c19716b6e3fca7cbdac",
+          "sha1": "ebad7076aef4e9fce66c6dd80426f13ba4b82750",
+          "md5": "9e102d1341eb4f34e6ba7981d7cff88d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockative-iosarm64-3.0.1-fix-metadata.jar",
+          "url": "mockative-iosarm64-3.0.1-fix-metadata.jar",
+          "size": 261,
+          "sha512": "89257e93e9a2459880cdc035e6dcc4f87a6bce619ee483f2cdcc56cfb440471a9f3ef70a9540c95537d9ca9455bf9ce502c2a1da9e92e9516f4b468bfc971c24",
+          "sha256": "ada79310d06c268576b0ff6306e28afad93f7a7d7eb6f77c7532bd7bc09cea31",
+          "sha1": "fcd1fb7be179929c90dbd11117ef9fadeaf9f7ef",
+          "md5": "03e0f53427bf1565b646ba1bab74ecee"
+        }
+      ]
+    }
+  ]
+}

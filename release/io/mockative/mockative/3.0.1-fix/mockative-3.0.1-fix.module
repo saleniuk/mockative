@@ -1,0 +1,1098 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.mockative",
+    "module": "mockative",
+    "version": "3.0.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockative-metadata-3.0.1-fix.jar",
+          "url": "mockative-3.0.1-fix.jar",
+          "size": 30671,
+          "sha512": "84406ebc772c38714e790139c852e258ec1a478d2c35be97520bdda100e5f5dafbd83f0d409f59c3b7633fc4fa26fe2434dddce1181a3d4ce8b0cb05f7f57a92",
+          "sha256": "a5cb494b19b9f4fcf54a6c8458ff6b69467eb40a62807ffd05ec119349cb97da",
+          "sha1": "9290004588d2583dd5c0e357e5cc4abe2b4652d1",
+          "md5": "98cf6aac68fa8f5ff2056c1854240efa"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "mockative-kotlin-3.0.1-fix-sources.jar",
+          "url": "mockative-3.0.1-fix-sources.jar",
+          "size": 26608,
+          "sha512": "224bf9087a214c28354e58b28a8d5e9469f24d38c9aa2976918a2ea0aec2dbc66ec199a4edc0af1b2cb066ac426e119ae47ead143339cf71b0814b3d34d927f0",
+          "sha256": "7101f3035b8781a53401785eb857645f6ba780af33b6c8d518db085a59ac2517",
+          "sha1": "bd7b1ad7b5cf974390c87d533e38dd6aba41de0b",
+          "md5": "603d0a2b54589560970e12aba9efbfdd"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../mockative-android/3.0.1-fix/mockative-android-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-android",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../mockative-android/3.0.1-fix/mockative-android-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-android",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../mockative-android/3.0.1-fix/mockative-android-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-android",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-iosarm64/3.0.1-fix/mockative-iosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-iosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-iosarm64/3.0.1-fix/mockative-iosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-iosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-iosarm64/3.0.1-fix/mockative-iosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-iosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-iossimulatorarm64/3.0.1-fix/mockative-iossimulatorarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-iossimulatorarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-iossimulatorarm64/3.0.1-fix/mockative-iossimulatorarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-iossimulatorarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-iossimulatorarm64/3.0.1-fix/mockative-iossimulatorarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-iossimulatorarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-iosx64/3.0.1-fix/mockative-iosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-iosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-iosx64/3.0.1-fix/mockative-iosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-iosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-iosx64/3.0.1-fix/mockative-iosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-iosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../mockative-js/3.0.1-fix/mockative-js-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-js",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../mockative-js/3.0.1-fix/mockative-js-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-js",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../mockative-js/3.0.1-fix/mockative-js-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-js",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../mockative-jvm/3.0.1-fix/mockative-jvm-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-jvm",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../mockative-jvm/3.0.1-fix/mockative-jvm-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-jvm",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../mockative-jvm/3.0.1-fix/mockative-jvm-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-jvm",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-linuxarm64/3.0.1-fix/mockative-linuxarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-linuxarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-linuxarm64/3.0.1-fix/mockative-linuxarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-linuxarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-linuxx64/3.0.1-fix/mockative-linuxx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-linuxx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-linuxx64/3.0.1-fix/mockative-linuxx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-linuxx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-macosarm64/3.0.1-fix/mockative-macosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-macosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-macosarm64/3.0.1-fix/mockative-macosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-macosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-macosarm64/3.0.1-fix/mockative-macosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-macosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-macosx64/3.0.1-fix/mockative-macosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-macosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-macosx64/3.0.1-fix/mockative-macosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-macosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-macosx64/3.0.1-fix/mockative-macosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-macosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-mingwx64/3.0.1-fix/mockative-mingwx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-mingwx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-mingwx64/3.0.1-fix/mockative-mingwx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-mingwx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-tvosarm64/3.0.1-fix/mockative-tvosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-tvosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-tvosarm64/3.0.1-fix/mockative-tvosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-tvosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-tvosarm64/3.0.1-fix/mockative-tvosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-tvosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-tvossimulatorarm64/3.0.1-fix/mockative-tvossimulatorarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-tvossimulatorarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-tvossimulatorarm64/3.0.1-fix/mockative-tvossimulatorarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-tvossimulatorarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-tvossimulatorarm64/3.0.1-fix/mockative-tvossimulatorarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-tvossimulatorarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-tvosx64/3.0.1-fix/mockative-tvosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-tvosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-tvosx64/3.0.1-fix/mockative-tvosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-tvosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-tvosx64/3.0.1-fix/mockative-tvosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-tvosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../mockative-wasm-js/3.0.1-fix/mockative-wasm-js-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-wasm-js",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../mockative-wasm-js/3.0.1-fix/mockative-wasm-js-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-wasm-js",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../mockative-wasm-js/3.0.1-fix/mockative-wasm-js-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-wasm-js",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../mockative-wasm-wasi/3.0.1-fix/mockative-wasm-wasi-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-wasm-wasi",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../mockative-wasm-wasi/3.0.1-fix/mockative-wasm-wasi-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-wasm-wasi",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../mockative-wasm-wasi/3.0.1-fix/mockative-wasm-wasi-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-wasm-wasi",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosarm32/3.0.1-fix/mockative-watchosarm32-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosarm32",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosarm32/3.0.1-fix/mockative-watchosarm32-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosarm32",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosarm32/3.0.1-fix/mockative-watchosarm32-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosarm32",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosarm64/3.0.1-fix/mockative-watchosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosarm64/3.0.1-fix/mockative-watchosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosarm64/3.0.1-fix/mockative-watchosarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosdevicearm64/3.0.1-fix/mockative-watchosdevicearm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosdevicearm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosdevicearm64/3.0.1-fix/mockative-watchosdevicearm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosdevicearm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosdevicearm64/3.0.1-fix/mockative-watchosdevicearm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosdevicearm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchossimulatorarm64/3.0.1-fix/mockative-watchossimulatorarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchossimulatorarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchossimulatorarm64/3.0.1-fix/mockative-watchossimulatorarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchossimulatorarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchossimulatorarm64/3.0.1-fix/mockative-watchossimulatorarm64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchossimulatorarm64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosx64/3.0.1-fix/mockative-watchosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosx64/3.0.1-fix/mockative-watchosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosx64",
+        "version": "3.0.1-fix"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mockative-watchosx64/3.0.1-fix/mockative-watchosx64-3.0.1-fix.module",
+        "group": "io.mockative",
+        "module": "mockative-watchosx64",
+        "version": "3.0.1-fix"
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mockative/3.0.1-fix/mockative-3.0.1-fix.module",
+    "group": "io.mockative",
+    "module": "mockative",
+    "version": "3.0.1-fix",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockative-jvm-3.0.1-fix.jar",
+          "url": "mockative-jvm-3.0.1-fix.jar",
+          "size": 148099,
+          "sha512": "8272ff8f055acd0d0ec94bf8a6112d277204a49c0839ada2bae183373232750bcbfc96485567a5e0f2f9e604c5f133dd1c6cb56ea21f3a3295944c392b4a8431",
+          "sha256": "7c903b27ecd7711a31e4e7b376f8b41bd9564326d7d127e56d5609f6d7cb69c8",
+          "sha1": "035064863e6e6eb4051f4e9ff1c82bc7e2d375a1",
+          "md5": "b5a03489db6a47c1b7f33ea4ce9790b0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "org.objenesis",
+          "module": "objenesis",
+          "version": {
+            "requires": "3.3"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.29.2-GA"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mockative-jvm-3.0.1-fix.jar",
+          "url": "mockative-jvm-3.0.1-fix.jar",
+          "size": 148099,
+          "sha512": "8272ff8f055acd0d0ec94bf8a6112d277204a49c0839ada2bae183373232750bcbfc96485567a5e0f2f9e604c5f133dd1c6cb56ea21f3a3295944c392b4a8431",
+          "sha256": "7c903b27ecd7711a31e4e7b376f8b41bd9564326d7d127e56d5609f6d7cb69c8",
+          "sha1": "035064863e6e6eb4051f4e9ff1c82bc7e2d375a1",
+          "md5": "b5a03489db6a47c1b7f33ea4ce9790b0"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "mockative-jvm-3.0.1-fix-sources.jar",
+          "url": "mockative-jvm-3.0.1-fix-sources.jar",
+          "size": 27196,
+          "sha512": "14594ddbd26311e47e9268adcd88ba0f05df1fc08dcbb3b9d5cb291a2a3d63fe8bf5c512640b8bb836801fa07794876d4ee628d5e527260f9dc6c2c99d2a5c61",
+          "sha256": "6a4dace10d4a62e1eea859662624d4e3644fa8e8baccb09944257d4f39a1f4fe",
+          "sha1": "40319f5b224c50e72bef18943f7b63a1585b7147",
+          "md5": "8a538c0f54e8813c4557dd153b6b93d8"
+        }
+      ]
+    }
+  ]
+}

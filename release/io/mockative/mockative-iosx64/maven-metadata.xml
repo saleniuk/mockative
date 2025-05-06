@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.mockative</groupId>
+  <artifactId>mockative-iosx64</artifactId>
+  <versioning>
+    <latest>3.0.1-fix</latest>
+    <release>3.0.1-fix</release>
+    <versions>
+      <version>3.0.1-fix</version>
+    </versions>
+    <lastUpdated>20250506140905</lastUpdated>
+  </versioning>
+</metadata>
